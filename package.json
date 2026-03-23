@@ -1,0 +1,27 @@
+{
+  "name": "student-management-api",
+  "version": "1.0.0",
+  "description": "RESTful API quan ly thong tin sinh vien theo mo hinh 3-layer architecture",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "test": "echo \"No tests configured yet\""
+  },
+  "keywords": [
+    "rest-api",
+    "students",
+    "3-layer-architecture",
+    "express"
+  ],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "express": "^5.2.1",
+    "joi": "^18.0.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  }
+}
